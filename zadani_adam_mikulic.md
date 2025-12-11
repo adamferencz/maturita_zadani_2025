@@ -7,21 +7,18 @@
 
 ## 1. NÁZEV PRÁCE
 
-Komunikační modul (relay node) pro bezpilotní letoun s vertikálním vzletem (VTOL UAV)
+Komunikační modul pro bezpilotní letoun
 
 ---
 
 ## 2. CÍL PRÁCE
 
-Vyvinout a otestovat komunikační modul („relay node") rozšiřující dosah UAV (bezpilotní letoun) a umožňující autonomní let na větší vzdálenosti.
-
+Vyvynout a otestovat komunikační modul rozšiřující dosah komunikace bezpilotního letounu.
 ---
 
 ## 3. FUNKČNÍ POŽADAVKY
 
-- Návrh a výroba vlastního PCB
-- Firmware pro komunikaci a řízení (telemetrie, relay funkce)
-- Napájení a energetická optimalizace
+- Realizace funkčního komunikačního modulu
 - Testování stabilní komunikace na vzdálenost (minimálně 2x rozšíření dosahu)
 - Integrace s letounem (držák + bezpečné vypuštění)
 - Validace na reálných letových testech
@@ -32,8 +29,7 @@ Vyvinout a otestovat komunikační modul („relay node") rozšiřující dosah 
 
 ### 4.1 Funkční projekt
 
-- Funkční relay node včetně PCB
-- Firmware s dokumentací
+- Funkční relay node
 - Úspěšné letové testy
 
 ### 4.2 Vědecký/odborný článek
@@ -77,7 +73,7 @@ Vyvinout a otestovat komunikační modul („relay node") rozšiřující dosah 
 
 ## 7. STRUKTURA ODEVZDÁNÍ
 
-Počet vyhotovení: 1x zip soubor s prací a kompletními materiály.
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály (bez modulu, ten nejde zazipovat).
 
 ```tree
 /projekt_mikulic/
