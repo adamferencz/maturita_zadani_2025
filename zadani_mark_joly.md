@@ -13,7 +13,7 @@ Bezpilotní letoun se schopností vertikálního vzletu a přistání (VTOL) sch
 
 ## 2. CÍL PRÁCE
 
-Cílem práce je sestrojit funkční letoun schopný vertikálního vzletu, přistání a stabilního horizontálního letu. Letoun zvládne přenést komunikační modul, tedy minimálně 250g nákladu. 
+Cílem práce je sestrojit funkční letoun schopný vertikálního vzletu, přistání a stabilního horizontálního letu. Letoun zvládne přenést komunikační modul, tedy minimálně 250 g nákladu. 
 
 ---
 
