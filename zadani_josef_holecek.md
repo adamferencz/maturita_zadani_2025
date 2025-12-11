@@ -34,7 +34,7 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 - Nasazená webová aplikace (Next.js + Firebase)
 - Testování s reálnými uživateli (rodiče, trenéři)
-- Zpětná vazba z testování
+- Zpětná vazba z testování(projekt bude nasazený v provozu a bude již pře ohajobou obsahovat relevantní data - reálných učivatelů, kteří k tomu dají feedback a ten bude zapracován do práce)
 
 ### 4.2 Vědecký/odborný článek
 
@@ -63,7 +63,7 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 ## 5. HODNOTICÍ KRITÉRIA
 
-- **Funkčnost projektu (40%)** – Funkční portál, splnění požadavků
+- **Funkčnost projektu (40%)** – Funkční portál, splnění požadavků - míra uvedení do reálného provozu a používání uživateli, zapracování zpětné vazby zpět do aplikace
 - **Dokumentace (25%)** – Technická dokumentace, článek, poster
 - **Prezentace a obhajoba (35%)** – Kvalita prezentace, odpovědi na dotazy
 
