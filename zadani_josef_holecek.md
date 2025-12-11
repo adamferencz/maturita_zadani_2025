@@ -25,7 +25,6 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 - Autentizace trenéra + správa vlastních kroužků
 - Admin rozhraní pro schvalování a moderaci
 - Responzivní design pro mobily a tablety
-- Mapa s umístěním kroužků
 
 ---
 
@@ -39,7 +38,7 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 ### 4.2 Vědecký/odborný článek
 
-- **Rozsah:** 8-15 stran A4, formát dvou sloupců
+- **Rozsah:** 4-15 stran A4, formát dvou sloupců
 - **Obsah:** Analýza potřeb komunity, návrh uživatelského rozhraní, implementace, testování použitelnosti
 - **Styl:** Mírně populárně-vědecký
 
