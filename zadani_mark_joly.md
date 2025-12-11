@@ -73,7 +73,7 @@ Sestrojit funkční VTOL letoun schopný vertikálního vzletu, stabilního hori
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 

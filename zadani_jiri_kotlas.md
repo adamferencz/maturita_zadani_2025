@@ -71,7 +71,7 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 

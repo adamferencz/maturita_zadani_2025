@@ -1,4 +1,4 @@
-# Maturitní zadání 2025 – Gymnázium Havlíčkův Brod
+# Maturitní zadání 2025/2026 – Gymnázium Havlíčkův Brod
 
 Tento repozitář obsahuje kompletní dokumentaci a zadání pro praktické maturitní práce studentů.
 
@@ -174,7 +174,7 @@ Struktura je na vás, ale doporučené je:
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-Deadline odevzdání do teams je **30. dubna 2025**, poté následuje čas na hodnocení vedoucím a oponentem.
+Deadline odevzdání do teams je **30. dubna 2026**, poté následuje čas na hodnocení vedoucím a oponentem.
 
 ---
 
@@ -248,5 +248,6 @@ Tento standardní proces se používá i ve firmách, aby bylo jasné, na čem s
 - **Listopad - leden:** Implementace klíčových funkcí
 - **Únor - březen:** Testování, finalizace funkčnosti
 - **Duben:** Dokončení dokumentace, článku a posteru
-- **30. dubna:** Odevzdání práce
-- **Květen:** Vypracování posudků vedoucím a oponentem, Obhajoba před maturitní komisí
+- **30. dubna 2026:** Odevzdání práce
+- **Květen 2026:** Vypracování posudků vedoucím a oponentem
+- **Červen 2026:** Obhajoba před maturitní komisí

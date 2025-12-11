@@ -72,7 +72,7 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 

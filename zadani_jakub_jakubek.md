@@ -72,7 +72,7 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 

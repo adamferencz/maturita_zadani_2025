@@ -13,7 +13,7 @@ Komunikační modul pro bezpilotní letoun
 
 ## 2. CÍL PRÁCE
 
-Vyvinout a otestovat komunikační modul rozšiřující dosah komunikace bezpilotního letounu.
+Vyvinout a otestovat komunikační modul rozšiřující dosah komunikace bezpilotního letounu
 ---
 
 ## 3. FUNKČNÍ POŽADAVKY
@@ -67,13 +67,14 @@ Vyvinout a otestovat komunikační modul rozšiřující dosah komunikace bezpil
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 
 ## 7. STRUKTURA ODEVZDÁNÍ
 
-Počet vyhotovení: 1x zip soubor s prací a kompletními materiály 
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály
+
 ```tree
 /projekt_mikulic/
   ├── README.md (stručný přehled projektu)
