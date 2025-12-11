@@ -7,25 +7,25 @@
 
 ## 1. NÁZEV PRÁCE
 
-Školní e-shop pro GHB (systém pro prodej školního oblečení a doplňků)
+Webová aplikace pro správu a distribuci školních propagačních předmětů
 
 ---
 
 ## 2. CÍL PRÁCE
 
-Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou objednávek pro školní merch.
+Cílem práce je navrhnout a realizovat webovou aplikaci (objednávkový portál) pro centralizovaný sběr požadavků na školní oblečení a doplňky.
 
 ---
 
 ## 3. FUNKČNÍ POŽADAVKY
 
 - Produktový katalog s fotografiemi a variantami
-- Objednávkový systém s košíkem
+- Systém pro sestavení objednávky
 - Autentizace (včetně přihlášení přes školní účty Microsoft)
 - Administrační rozhraní pro správu produktů a objednávek
-- Systém QR kódů pro ověření výdeje
-- Notifikace o stavu objednávky
-- Přehledy a statistiky prodejů
+- Systém QR kódů pro praktickou správu
+- Notifikace o stavu zpracování
+- Přehledy a statistiky zájmu o produkty
 
 ---
 
@@ -34,26 +34,26 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 ### 4.1 Funkční projekt
 
 - Nasazená a funkční aplikace
-- Testování na reálných uživatelích (studenti, admin)
+- Testování na reálných uživatelích (studenti, administrátoři)
 - Zpětná vazba z testování
 
 ### 4.2 Vědecký/odborný článek
 
-- **Rozsah:** 8-15 stran A4, formát dvou sloupců
-- **Obsah:** Analýza e-commerce systémů, návrh UX, implementace, testování použitelnosti
+- **Rozsah:** 4-15 stran A4, formát dvou sloupců
+- **Obsah:** Analýza objednávkových procesů, návrh UX, implementace, testování použitelnosti
 - **Styl:** Mírně populárně-vědecký
 
 ### 4.3 Poster
 
 - **Velikost:** A3 (297 × 420 mm)
-- **Obsah:** Screenshoty aplikace, proces objednávky, statistiky použití
+- **Obsah:** Screenshoty aplikace, průběh objednávky, statistiky použití
 - **Formát:** PDF pro tisk
 
 ### 4.4 Technická dokumentace
 
 - **Rozsah:** Minimálně 10-20 stran
 - **Formát:** Markdown nebo PDF (Word/LaTeX)
-- **Obsah:** Popis architektury systému, instalační návod, uživatelská příručka (pro zákazníky i administrátory), API dokumentace, databázové schéma, deployment a konfigurace
+- **Obsah:** Popis architektury systému, instalační návod, uživatelská příručka (pro koncové uživatele i administrátory), API dokumentace, databázové schéma, deployment a konfigurace
 
 ### 4.5 Prezentace pro obhajobu
 
@@ -64,7 +64,7 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 ## 5. HODNOTICÍ KRITÉRIA
 
-- **Funkčnost projektu (40%)** – Funkční e-shop, splnění požadavků
+- **Funkčnost projektu (40%)** – Funkční webová aplikace, splnění požadavků
 - **Dokumentace (25%)** – Technická dokumentace, článek, poster
 - **Prezentace a obhajoba (35%)** – Kvalita prezentace, odpovědi na dotazy
 
@@ -72,7 +72,7 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 ## 6. TERMÍN ODEVZDÁNÍ
 
-**30. dubna 2025**
+**30. dubna 2026**
 
 ---
 
