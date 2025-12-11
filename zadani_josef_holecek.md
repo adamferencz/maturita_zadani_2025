@@ -1,6 +1,11 @@
-# Zadání maturitní práce – Josef Holeček
+# Zadání maturitní práce
 
-## 1. NÁZEV PROJEKTU
+**Student:** Josef Holeček  
+**Školní rok:** 2025/2026  
+**Předmět:** Informatika  
+**Vedoucí práce:** Ing. Adam Ferencz
+
+## 1. NÁZEV PRÁCE
 
 Webový portál pro kroužky a trenéry v Havlíčkově Brodě
 
@@ -35,7 +40,7 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 ### 4.2 Vědecký/odborný článek
 
 - **Rozsah:** 8-15 stran A4, formát dvou sloupců
-- **Obsah:** Analýza potřeb komunity, UX design, implementace, testování použitelnosti
+- **Obsah:** Analýza potřeb komunity, návrh uživatelského rozhraní, implementace, testování použitelnosti
 - **Styl:** Mírně populárně-vědecký
 
 ### 4.3 Poster
@@ -48,18 +53,12 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 - **Rozsah:** Minimálně 10-20 stran
 - **Formát:** Markdown nebo PDF (Word/LaTeX)
-- **Obsah:** Popis architektury (Next.js, Firebase, komponenty), instalační návod, uživatelská příručka (pro trenéry, admin), datový model Firebase, deployment a konfigurace, UX dokumentace a wireframes
+- **Obsah:** Popis architektury (webový framework, databáze, komponenty), instalační návod, uživatelská příručka (pro trenéry, administrátory), datový model, nasazení a konfigurace, dokumentace uživatelského rozhraní a návrhy obrazovek
 
 ### 4.5 Prezentace pro obhajobu
 
-- **Rozsah:** 15-20 slidů
-- **Trvání:** 10-15 minut + diskuse
-- **Obsah:** Live demonstrace funkcí, výsledky testování s uživateli
-
-### 4.6 Výkaz činnosti
-
-- Průběžné reporty (R1, R2, R3)
-- Měsíční záznamy o práci včetně odhadovaných hodin
+- **Rozsah:** 5-12 slidů
+- **Délka obhajoby:** 15 minut
 
 ---
 
@@ -67,22 +66,40 @@ Vytvořit webovou aplikaci sjednocující informace o volnočasových aktivitác
 
 - **Funkčnost projektu (40%)** – Funkční portál, splnění požadavků
 - **Dokumentace (25%)** – Technická dokumentace, článek, poster
-- **Prezentace a obhajoba (25%)** – Kvalita prezentace, odpovědi na dotazy
-- **Výkaz činnosti (10%)** – Pravidelná práce, dokumentace postupu
+- **Prezentace a obhajoba (35%)** – Kvalita prezentace, odpovědi na dotazy
 
 ---
 
-## 6. STRUKTURA ODEVZDÁNÍ
+## 6. TERMÍN ODEVZDÁNÍ
+
+**30. dubna 2025**
+
+---
+
+## 7. POSUDKY A HODNOCENÍ
+
+Po odevzdání práce bude vypracován:
+
+- **Posudek vedoucího práce** – hodnocení procesu tvorby, technického řešení a kvality výstupů
+- **Posudek oponenta** – nezávislé hodnocení projektu a dokumentace
+
+Na základě obou posudků a obhajoby komise stanoví výsledné hodnocení.
+
+---
+
+## 8. STRUKTURA ODEVZDÁNÍ
+
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály.
 
 ```tree
 /projekt_holecek/
   ├── README.md (stručný přehled projektu)
   ├── paper.pdf (vědecký článek)
   ├── poster.pdf (poster A3)
-  ├── vykaz_cinnosti.xlsx (výkaz průběžné činnosti)
   ├── dokumentace/
   │   └── technicka_dokumentace.pdf nebo .md
   ├── prezentace/
   │   └── obhajoba.pptx
-  └── projekt/ (zdrojové kódy Next.js)
+  └── projekt/
+      └──(zdrojové kódy)
 ```

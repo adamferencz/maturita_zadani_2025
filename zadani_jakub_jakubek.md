@@ -1,8 +1,13 @@
-# Zadání maturitní práce – Jakub Jakůbek
+# Zadání maturitní práce
 
-## 1. NÁZEV PROJEKTU
+**Student:** Jakub Jakůbek  
+**Školní rok:** 2025/2026  
+**Předmět:** Informatika  
+**Vedoucí práce:** Ing. Adam Ferencz
 
-Školní e-shop pro GHB (merch systém)
+## 1. NÁZEV PRÁCE
+
+Školní e-shop pro GHB (systém pro prodej školního oblečení a doplňků)
 
 ---
 
@@ -16,11 +21,11 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 - Produktový katalog s fotografiemi a variantami
 - Objednávkový systém s košíkem
-- Autentizace (včetně MS OAuth pro školní účty)
-- Admin rozhraní pro správu produktů a objednávek
-- QR systém pro ověření výdeje
+- Autentizace (včetně přihlášení přes školní účty Microsoft)
+- Administrační rozhraní pro správu produktů a objednávek
+- Systém QR kódů pro ověření výdeje
 - Notifikace o stavu objednávky
-- Reporting a statistiky prodejů
+- Přehledy a statistiky prodejů
 
 ---
 
@@ -52,14 +57,8 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 ### 4.5 Prezentace pro obhajobu
 
-- **Rozsah:** 15-20 slidů
-- **Trvání:** 10-15 minut + diskuse
-- **Obsah:** Live demonstrace objednávky a administrace, výsledky testování
-
-### 4.6 Výkaz činnosti
-
-- Průběžné reporty (R1, R2, R3)
-- Měsíční záznamy o práci včetně odhadovaných hodin
+- **Rozsah:** 5-12 slidů
+- **Délka obhajoby:** 15 minut
 
 ---
 
@@ -67,19 +66,36 @@ Vytvořit kompletní e-shop s administrací, QR kódy pro výdej a správou obje
 
 - **Funkčnost projektu (40%)** – Funkční e-shop, splnění požadavků
 - **Dokumentace (25%)** – Technická dokumentace, článek, poster
-- **Prezentace a obhajoba (25%)** – Kvalita prezentace, odpovědi na dotazy
-- **Výkaz činnosti (10%)** – Pravidelná práce, dokumentace postupu
+- **Prezentace a obhajoba (35%)** – Kvalita prezentace, odpovědi na dotazy
 
 ---
 
-## 6. STRUKTURA ODEVZDÁNÍ
+## 6. TERMÍN ODEVZDÁNÍ
+
+**30. dubna 2025**
+
+---
+
+## 7. POSUDKY A HODNOCENÍ
+
+Po odevzdání práce bude vypracován:
+
+- **Posudek vedoucího práce** – hodnocení procesu tvorby, technického řešení a kvality výstupů
+- **Posudek oponenta** – nezávislé hodnocení projektu a dokumentace
+
+Na základě obou posudků a obhajoby komise stanoví výsledné hodnocení.
+
+---
+
+## 8. STRUKTURA ODEVZDÁNÍ
+
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály.
 
 ```tree
 /projekt_jakubek/
   ├── README.md (stručný přehled projektu)
   ├── paper.pdf (vědecký článek)
   ├── poster.pdf (poster A3)
-  ├── vykaz_cinnosti.xlsx (výkaz průběžné činnosti)
   ├── dokumentace/
   │   └── technicka_dokumentace.pdf nebo .md
   ├── prezentace/

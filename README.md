@@ -34,9 +34,8 @@ Cílem je vytvořit **prakticky použitelný projekt**, který má skutečnou ho
 
 - **Funkční projekt** - software, hardware nebo kombinace
 - **Technická dokumentace** - podrobná dokumentace technických procesů
-- **Vědecký článek** - min. 3 strany, max. 10 stran A4, formát dvou sloupců
+- **Vědecký článek** - 4-15 stran A4, formát dvou sloupců
 - **Poster** - vizuální prezentace na A3
-- **Výkaz činnosti** - průběžné zprávy o postupu práce (R1, R2, R3)
 - **Prezentace pro obhajobu** - rozsah takový, aby časově vyšla
 
 ---
@@ -160,28 +159,37 @@ Struktura je na vás, ale doporučené je:
 ### 5.2 Dokumentace (25%)
 
 - Úplnost a přesnost technické dokumentace
-- Kvalita vědeckého článku (min. 3 strany, max. 10 stran A4, formát dvou sloupců)
+- Kvalita vědeckého článku (4-15 stran A4, formát dvou sloupců)
 - Kvalita posteru (vizuální prezentace na A3)
 - Jasnost a srozumitelnost
 
-### 5.3 Prezentace a obhajoba (25%)
+### 5.3 Prezentace a obhajoba (35%)
 
 - Kvalita prezentace
 - Schopnost vysvětlit technické detaily
 - Odpovědi na dotazy komise
 - Celkový přehled o projektu
 
-### 5.4 Výkaz průběžné činnosti (10%)
+---
 
-- Pravidelná práce během roku
-- Kvalita průběžných reportů (R1, R2, R3)
-- Samostatnost při řešení problémů
-- Dodržování harmonogramu
-- Měsíční záznamy o práci včetně odhadovaných hodin - umožňuje sledovat, co zabralo nejvíce času a co méně. Tento standardní proces se používá i ve firmách, aby bylo jasné, na čem se pracovalo.
+## 6. TERMÍN ODEVZDÁNÍ
+
+Deadline odevzdání do teams je **30. dubna 2025**, poté následuje čas na hodnocení vedoucím a oponentem.
 
 ---
 
-## 6. ZÁVĚREČNÁ OBHAJOBA
+## 7. POSUDKY A HODNOCENÍ
+
+Po odevzdání práce bude vypracován:
+
+- **Posudek vedoucího práce** – hodnocení procesu tvorby, technického řešení a kvality výstupů
+- **Posudek oponenta** – nezávislé hodnocení projektu a dokumentace
+
+Na základě obou posudků a obhajoby komise stanoví výsledné hodnocení.
+
+---
+
+## 8. ZÁVĚREČNÁ OBHAJOBA
 
 ### Průběh obhajoby
 
@@ -199,19 +207,11 @@ Struktura je na vás, ale doporučené je:
 
 ---
 
-## 7. FORMÁLNÍ POŽADAVKY
-
-### Odevzdání
-
-**Termín:** Nejpozději začátek května 2025
+## 9. STRUKTURA ODEVZDÁNÍ
 
 **Forma odevzdání:**
 
-- Všechny dokumenty v elektronické podobě
-- Zdrojové kódy / projekty (Git repozitář)
-- Kompletní dokumentace
-- Poster (PDF)
-- Prezentace
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály.
 
 **Struktura odevzdání:**
 
@@ -220,10 +220,33 @@ Struktura je na vás, ale doporučené je:
   ├── README.md (stručný přehled projektu)
   ├── paper.pdf (vědecký článek)
   ├── poster.pdf (poster A3)
-  ├── vykaz_cinnosti.xlsx (výkaz průběžné činnosti)
   ├── dokumentace/
   │   └── technicka_dokumentace.pdf nebo .md
   ├── prezentace/
   │   └── obhajoba.pptx
   └── projekt/ (zdrojové kódy, modely, schémata atd.)
 ```
+
+---
+
+## 10. PRŮBĚŽNÁ PRÁCE A REPORTING
+
+Během roku je nutné průběžně pracovat na projektu a dokumentovat svůj postup.
+
+- **Poznámka:** Výkaz činnosti **není součástí hodnocení maturitní práce**, ale slouží k hodnocení průběžné práce během roku
+
+### Výkaz činnosti (reporting)
+
+- **Účel:** Sledování průběhu práce, generování známek v průběhu roku
+- **Obsah:** Měsíční záznamy o práci včetně odhadovaných hodin, průběžné reporty (R1, R2, R3)
+
+Tento standardní proces se používá i ve firmách, aby bylo jasné, na čem se pracovalo a co zabralo nejvíce času.
+
+### Harmonogram (orientační)
+
+- **Září - říjen:** Specifikace zadání, rešerše, návrh řešení
+- **Listopad - leden:** Implementace klíčových funkcí
+- **Únor - březen:** Testování, finalizace funkčnosti
+- **Duben:** Dokončení dokumentace, článku a posteru
+- **30. dubna:** Odevzdání práce
+- **Květen:** Vypracování posudků vedoucím a oponentem, Obhajoba před maturitní komisí

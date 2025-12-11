@@ -1,6 +1,11 @@
-# Zadání maturitní práce – Jiří Kotlas
+# Zadání maturitní práce
 
-## 1. NÁZEV PROJEKTU
+**Student:** Jiří Kotlas  
+**Školní rok:** 2025/2026  
+**Předmět:** Informatika  
+**Vedoucí práce:** Ing. Adam Ferencz
+
+## 1. NÁZEV PRÁCE
 
 Systém na řízení firemních procesů a dokumentů
 
@@ -17,8 +22,8 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 - Entity: projekty, úkoly, dokumenty
 - Workflow stavů (např. návrh → schválení → realizace → uzavřeno)
 - Uživatelské role a oprávnění
-- PDF exporty dokumentů
-- Dashboard s přehledem úkolů a projektů
+- Export dokumentů do PDF (přenosný formát dokumentu)
+- Hlavní panel s přehledem úkolů a projektů
 - Vyhledávání a filtrování
 
 ---
@@ -47,18 +52,12 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 
 - **Rozsah:** Minimálně 10-20 stran
 - **Formát:** Markdown nebo PDF (Word/LaTeX)
-- **Obsah:** Popis architektury systému, instalační návod, uživatelská příručka, API dokumentace, databázové schéma, konfigurace a deployment
+- **Obsah:** Popis architektury systému, instalační návod, uživatelská příručka, dokumentace programového rozhraní (API), databázové schéma, konfigurace a nasazení
 
 ### 4.5 Prezentace pro obhajobu
 
-- **Rozsah:** 15-20 slidů
-- **Trvání:** 10-15 minut + diskuse
-- **Obsah:** Demonstrace funkcí systému, výsledky testování
-
-### 4.6 Výkaz činnosti
-
-- Průběžné reporty (R1, R2, R3)
-- Měsíční záznamy o práci včetně odhadovaných hodin
+- **Rozsah:** 5-12 slidů
+- **Délka obhajoby:** 15 minut
 
 ---
 
@@ -66,19 +65,36 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 
 - **Funkčnost projektu (40%)** – Funkční systém, splnění požadavků
 - **Dokumentace (25%)** – Technická dokumentace, článek, poster
-- **Prezentace a obhajoba (25%)** – Kvalita prezentace, odpovědi na dotazy
-- **Výkaz činnosti (10%)** – Pravidelná práce, dokumentace postupu
+- **Prezentace a obhajoba (35%)** – Kvalita prezentace, odpovědi na dotazy
 
 ---
 
-## 6. STRUKTURA ODEVZDÁNÍ
+## 6. TERMÍN ODEVZDÁNÍ
+
+**30. dubna 2025**
+
+---
+
+## 7. POSUDKY A HODNOCENÍ
+
+Po odevzdání práce bude vypracován:
+
+- **Posudek vedoucího práce** – hodnocení procesu tvorby, technického řešení a kvality výstupů
+- **Posudek oponenta** – nezávislé hodnocení projektu a dokumentace
+
+Na základě obou posudků a obhajoby komise stanoví výsledné hodnocení.
+
+---
+
+## 8. STRUKTURA ODEVZDÁNÍ
+
+Počet vyhotovení: 1x zip soubor s prací a kompletními materiály.
 
 ```tree
 /projekt_kotlas/
   ├── README.md (stručný přehled projektu)
   ├── paper.pdf (vědecký článek)
   ├── poster.pdf (poster A3)
-  ├── vykaz_cinnosti.xlsx (výkaz průběžné činnosti)
   ├── dokumentace/
   │   └── technicka_dokumentace.pdf nebo .md
   ├── prezentace/
