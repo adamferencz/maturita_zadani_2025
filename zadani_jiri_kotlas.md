@@ -13,18 +13,19 @@ Systém na řízení firemních procesů a dokumentů
 
 ## 2. CÍL PRÁCE
 
-Vyvinout funkční webový systém umožňující správu projektů, úkolů, dokumentů a workflow pro podporu firemních procesů.
+Vyvinout funkční webový systém umožňující správu projektů, dokumentů, fakturace a workflow pro podporu firemních procesů.
 
 ---
 
 ## 3. FUNKČNÍ POŽADAVKY
 
-- Entity: projekty, úkoly, dokumenty
-- Workflow stavů (např. návrh → schválení → realizace → uzavřeno)
+- Entity: projekty, faktury, objednávky, nabídky, smlouvy, uživatele, klienti, akceptační protokoly 
+- Workflow stavů (např. nabídka → schválení → objednávka → faktury)
 - Uživatelské role a oprávnění
-- Export dokumentů do PDF (přenosný formát dokumentu)
 - Hlavní panel s přehledem úkolů a projektů
 - Vyhledávání a filtrování
+- dashboardy a reporty
+- seznam klientů
 
 ---
 
@@ -38,7 +39,7 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 
 ### 4.2 Vědecký/odborný článek
 
-- **Rozsah:** 8-15 stran A4, formát dvou sloupců
+- **Rozsah:** 4-15 stran A4, formát dvou sloupců
 - **Obsah:** Analýza procesů, návrh řešení, implementace, testování, vyhodnocení
 - **Styl:** Mírně populárně-vědecký
 
@@ -50,7 +51,7 @@ Vyvinout funkční webový systém umožňující správu projektů, úkolů, do
 
 ### 4.4 Technická dokumentace
 
-- **Rozsah:** Minimálně 10-20 stran
+- **Rozsah:** Minimálně 2-10 stran
 - **Formát:** Markdown nebo PDF (Word/LaTeX)
 - **Obsah:** Popis architektury systému, instalační návod, uživatelská příručka, dokumentace programového rozhraní (API), databázové schéma, konfigurace a nasazení
 
