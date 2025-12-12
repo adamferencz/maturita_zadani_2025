@@ -7,26 +7,23 @@
 
 ## 1. NÁZEV PRÁCE
 
-Bezpilotní letoun s vertikálním vzletem (VTOL) schopný přenášet komunikační modul
+Bezpilotní letoun se schopností vertikálního vzletu a přistání (VTOL) schopný přenášet komunikační modul
 
 ---
 
 ## 2. CÍL PRÁCE
 
-Sestrojit funkční VTOL letoun schopný vertikálního vzletu, stabilního horizontálního letu a nesení 250 g payloadu (relay node).
+Cílem práce je sestrojit funkční letoun schopný vertikálního vzletu, přistání a stabilního horizontálního letu. Letoun zvládne přenést komunikační modul, tedy minimálně 250 g nákladu. 
 
 ---
 
 ## 3. FUNKČNÍ POŽADAVKY
 
 - Kompletní 3D návrh konstrukce
-- Výroba uhlíkové kostry
-- Výroba pěnových částí křídla a ocasních ploch
-- Mechanismus naklopení rotorů pro vertikální vzlet
-- Integrace autopilota (Pixhawk nebo podobný)
-- Letové testy a ladění regulátorů stability letu
-- Validace autonomní mise s navigačními body
-- Kapacita nákladu minimálně 250 g
+- Návrh a realizace elektroniky
+- Realizace konstrukce z uhlíku, EPP pěny a pomocí 3D tisku
+- Integrace a nastavení autopilota
+- Úspěšné letové testy a kalibrace parametrů stability letu
 
 ---
 
@@ -35,26 +32,25 @@ Sestrojit funkční VTOL letoun schopný vertikálního vzletu, stabilního hori
 ### 4.1 Funkční projekt
 
 - Postavený a funkční VTOL letoun
-- Úspěšné letové testy (VTOL + horizontální let)
-- Validace mise s payloadem
+- Úspěšné letové testy s komunikačním modulem (Vertikální vzlet + horizontální let + vertikální přistání)
 
 ### 4.2 Vědecký/odborný článek
 
 - **Rozsah:** 8-15 stran A4, formát dvou sloupců
-- **Obsah:** Analýza konceptů letounů s vertikálním vzletem, mechanický návrh, výroba, ladění, letové testy
+- **Obsah:** Aerodynamická analýza a volba tvaru, návrh a realizace elektroniky, návrh letounu prostřednictvím CAD, výrobní proces, letové testy + kalibrace
 - **Styl:** Mírně populárně-vědecký
 
 ### 4.3 Poster
 
 - **Velikost:** A3 (297 × 420 mm)
-- **Obsah:** 3D vizualizace, fotografie konstrukce, letové charakteristiky
+- **Obsah:** 3D vizualizace, fotografie letounu, charakteristiky letounu
 - **Formát:** PDF pro tisk
 
 ### 4.4 Technická dokumentace
 
 - **Rozsah:** Minimálně 10-20 stran
 - **Formát:** Markdown nebo PDF (Word/LaTeX)
-- **Obsah:** 3D modely a mechanické výkresy, výrobní postup (krok za krokem), montážní návod, nastavení autopilota a parametry regulátorů, provozní návod, fotodokumentace výroby, testovací protokoly a videa z letů
+- **Obsah:** 3D modely a výkresy, výrobní postupy, fotodokumentace výroby, nastavení autopilota, testovací protokoly a data z letů, provozní návod
 
 ### 4.5 Prezentace pro obhajobu
 
