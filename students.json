@@ -27,8 +27,14 @@
         { "kind": "md", "label": "Technická dokumentace (MD)", "path": "odevzdani_2026/projekt_holecek/dokumentace/TECHNICKA_DOKUMENTACE.md" }
       ],
       "projekt": [],
-      "hodnoceni_vedouciho": null,
-      "hodnoceni_oponenta": null
+      "hodnoceni_vedouciho": [
+        { "kind": "md",  "label": "Posudek vedoucího (MD)",  "path": "odevzdani_2026/posudky/holecek_posudek_vedouciho.md" },
+        { "kind": "pdf", "label": "Posudek vedoucího (PDF)", "path": "odevzdani_2026/posudky/holecek_posudek_vedouciho.pdf" }
+      ],
+      "hodnoceni_oponenta": [
+        { "kind": "md",  "label": "Posudek oponenta (MD)",  "path": "odevzdani_2026/posudky/holecek_posudek_oponenta.md" },
+        { "kind": "pdf", "label": "Posudek oponenta (PDF)", "path": "odevzdani_2026/posudky/holecek_posudek_oponenta.pdf" }
+      ]
     },
     {
       "id": "jakubek",
@@ -53,8 +59,14 @@
       "projekt": [
         { "kind": "download", "label": "Zdrojové kódy (7z)", "path": "odevzdani_2026/projekt_jakubek/projekt/school-merch.7z" }
       ],
-      "hodnoceni_vedouciho": null,
-      "hodnoceni_oponenta": null
+      "hodnoceni_vedouciho": [
+        { "kind": "md",  "label": "Posudek vedoucího (MD)",  "path": "odevzdani_2026/posudky/jakubek_posudek_vedouciho.md" },
+        { "kind": "pdf", "label": "Posudek vedoucího (PDF)", "path": "odevzdani_2026/posudky/jakubek_posudek_vedouciho.pdf" }
+      ],
+      "hodnoceni_oponenta": [
+        { "kind": "md",  "label": "Posudek oponenta (MD)",  "path": "odevzdani_2026/posudky/jakubek_posudek_oponenta.md" },
+        { "kind": "pdf", "label": "Posudek oponenta (PDF)", "path": "odevzdani_2026/posudky/jakubek_posudek_oponenta.pdf" }
+      ]
     },
     {
       "id": "joly",
@@ -80,8 +92,14 @@
       "projekt": [
         { "kind": "link", "label": "Videa letů (Google Drive)", "path": "https://drive.google.com/drive/folders/1Wxk2aYb90yqQeax_y-Ebh1rGsMwPxWxP?usp=sharing" }
       ],
-      "hodnoceni_vedouciho": null,
-      "hodnoceni_oponenta": null
+      "hodnoceni_vedouciho": [
+        { "kind": "md",  "label": "Posudek vedoucího (MD)",  "path": "odevzdani_2026/posudky/joly_posudek_vedouciho.md" },
+        { "kind": "pdf", "label": "Posudek vedoucího (PDF)", "path": "odevzdani_2026/posudky/joly_posudek_vedouciho.pdf" }
+      ],
+      "hodnoceni_oponenta": [
+        { "kind": "md",  "label": "Posudek oponenta (MD)",  "path": "odevzdani_2026/posudky/joly_posudek_oponenta.md" },
+        { "kind": "pdf", "label": "Posudek oponenta (PDF)", "path": "odevzdani_2026/posudky/joly_posudek_oponenta.pdf" }
+      ]
     },
     {
       "id": "kotlas",
@@ -106,8 +124,14 @@
       "projekt": [
         { "kind": "md", "label": "Poznámka k zdrojovým kódům", "path": "odevzdani_2026/projekt_kotlas/projekt/README.md" }
       ],
-      "hodnoceni_vedouciho": null,
-      "hodnoceni_oponenta": null
+      "hodnoceni_vedouciho": [
+        { "kind": "md",  "label": "Posudek vedoucího (MD)",  "path": "odevzdani_2026/posudky/kotlas_posudek_vedouciho.md" },
+        { "kind": "pdf", "label": "Posudek vedoucího (PDF)", "path": "odevzdani_2026/posudky/kotlas_posudek_vedouciho.pdf" }
+      ],
+      "hodnoceni_oponenta": [
+        { "kind": "md",  "label": "Posudek oponenta (MD)",  "path": "odevzdani_2026/posudky/kotlas_posudek_oponenta.md" },
+        { "kind": "pdf", "label": "Posudek oponenta (PDF)", "path": "odevzdani_2026/posudky/kotlas_posudek_oponenta.pdf" }
+      ]
     },
     {
       "id": "mikulic",
@@ -134,8 +158,14 @@
       "projekt": [
         { "kind": "download", "label": "Zdrojové kódy (ZIP)", "path": "odevzdani_2026/projekt_mikulic/projekt/projekt.zip" }
       ],
-      "hodnoceni_vedouciho": null,
-      "hodnoceni_oponenta": null
+      "hodnoceni_vedouciho": [
+        { "kind": "md",  "label": "Posudek vedoucího (MD)",  "path": "odevzdani_2026/posudky/mikulic_posudek_vedouciho.md" },
+        { "kind": "pdf", "label": "Posudek vedoucího (PDF)", "path": "odevzdani_2026/posudky/mikulic_posudek_vedouciho.pdf" }
+      ],
+      "hodnoceni_oponenta": [
+        { "kind": "md",  "label": "Posudek oponenta (MD)",  "path": "odevzdani_2026/posudky/mikulic_posudek_oponenta.md" },
+        { "kind": "pdf", "label": "Posudek oponenta (PDF)", "path": "odevzdani_2026/posudky/mikulic_posudek_oponenta.pdf" }
+      ]
     }
   ]
 }

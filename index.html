@@ -22,18 +22,61 @@
   html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
+
+  /* ── Header – výchozí (přehled) ── */
   header {
-    padding: 20px 28px; border-bottom: 1px solid var(--border);
-    display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between;
+    padding: 16px 28px; border-bottom: 1px solid var(--border);
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
     background: linear-gradient(180deg, #12161c, #0f1216);
     position: sticky; top: 0; z-index: 10;
   }
   header h1 { margin: 0; font-size: 18px; font-weight: 600; }
   header .meta { color: var(--muted); font-size: 13px; }
   header nav a { margin-left: 14px; font-size: 13px; }
-  main { padding: 24px 28px 80px; max-width: 1400px; margin: 0 auto; }
 
-  /* Grid */
+  /* ── Header – detail mód ── */
+  header.detail-mode {
+    flex-direction: column; align-items: stretch;
+    padding-bottom: 0; gap: 0;
+  }
+  .dh-top {
+    display: flex; align-items: center; gap: 12px; padding-bottom: 10px;
+  }
+  .dh-back {
+    font-size: 12px; color: var(--muted); cursor: pointer;
+    padding: 4px 10px; border: 1px solid var(--border); border-radius: 6px;
+    white-space: nowrap; user-select: none; flex-shrink: 0;
+  }
+  .dh-back:hover { color: var(--text); border-color: var(--accent); }
+  .dh-crumb { flex: 1; min-width: 0; overflow: hidden; }
+  .dh-crumb-main {
+    font-size: 15px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block;
+  }
+  .dh-crumb-sub {
+    font-size: 11px; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; margin-top: 2px;
+  }
+  .dh-nav { font-size: 13px; white-space: nowrap; flex-shrink: 0; }
+  .dh-tabs {
+    display: flex; flex-wrap: wrap;
+    border-top: 1px solid var(--border);
+    margin: 0 -28px; padding: 0 16px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .dh-tabs::-webkit-scrollbar { display: none; }
+  .dh-tab {
+    padding: 8px 12px; cursor: pointer; font-size: 13px; color: var(--muted);
+    border-bottom: 2px solid transparent; user-select: none; white-space: nowrap;
+  }
+  .dh-tab:hover { color: var(--text); }
+  .dh-tab.active { color: var(--text); border-bottom-color: var(--accent); }
+  .dh-tab .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-left: 4px; background: var(--accent-2); }
+  .dh-tab.miss .dot { background: var(--err); }
+
+  main { padding: 20px 28px 80px; max-width: 1400px; margin: 0 auto; }
+
+  /* ── Grid ── */
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
   .card {
     background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
@@ -52,24 +95,9 @@
   .chip.miss { color: var(--err); border-color: rgba(255,107,107,.35); }
   .chip small { opacity: .7; font-size: 10px; }
 
-  /* Detail */
+  /* ── Detail ── */
   #detail { display: none; }
   #detail.open { display: block; }
-  .back { font-size: 13px; color: var(--muted); cursor: pointer; display: inline-block; margin-bottom: 14px; }
-  .back:hover { color: var(--text); }
-  .detail-head h2 { margin: 0 0 4px; font-size: 22px; }
-  .detail-head p { margin: 0 0 20px; color: var(--muted); }
-  .tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
-  .tab {
-    padding: 10px 16px; cursor: pointer; font-size: 13px; color: var(--muted);
-    border-bottom: 2px solid transparent; user-select: none;
-  }
-  .tab:hover { color: var(--text); }
-  .tab.active { color: var(--text); border-bottom-color: var(--accent); }
-  .tab .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-left: 6px; background: var(--accent-2); }
-  .tab.miss .dot { background: var(--err); }
-  .tab-content { display: none; }
-  .tab-content.active { display: block; }
 
   .viewer {
     background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
@@ -83,9 +111,9 @@
   .viewer-head .left { display: flex; gap: 10px; align-items: center; }
   .viewer-head .actions a { margin-left: 10px; font-size: 12px; }
   .viewer iframe, .viewer img { display: block; border: 0; width: 100%; background: #fff; }
-  .viewer iframe { height: 80vh; }
+  .viewer iframe { height: 90vh; }
   .viewer img { max-height: 90vh; object-fit: contain; background: #1a1f27; }
-  .viewer .md { padding: 22px 28px; background: #fff; color: #222; max-height: 80vh; overflow: auto; }
+  .viewer .md { padding: 22px 28px; background: #fff; color: #222; max-height: 90vh; overflow: auto; }
   .viewer .md pre { background: #f4f4f4; padding: 10px; border-radius: 6px; overflow: auto; }
   .viewer .md code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; }
   .viewer .md table { border-collapse: collapse; }
@@ -105,7 +133,7 @@
 </style>
 </head>
 <body>
-<header>
+<header id="site-header">
   <div>
     <h1>🎓 Maturita 2026 — přehled prací</h1>
     <div class="meta">Gymnázium Havlíčkův Brod · Informatika · vedoucí Ing. Adam Ferencz · deadline 30. 4. 2026</div>
@@ -138,8 +166,10 @@ const SECTIONS = [
 ];
 
 let DATA = null;
+let HEADER_HTML = "";
 
 async function load() {
+  HEADER_HTML = document.getElementById("site-header").innerHTML;
   const res = await fetch("students.json");
   DATA = await res.json();
   renderGrid();
@@ -159,8 +189,7 @@ function itemsFor(student, key) {
 
 function statusFor(student, key) {
   const items = itemsFor(student, key);
-  if (items.length === 0) return "missing";
-  return "ok";
+  return items.length === 0 ? "missing" : "ok";
 }
 
 function renderGrid() {
@@ -188,9 +217,12 @@ function renderGrid() {
 function route() {
   const h = location.hash || "#/";
   const m = h.match(/^#\/s\/([^\/]+)(?:\/([^\/]+))?/);
+  const header = document.getElementById("site-header");
   const overview = document.getElementById("overview");
   const detail = document.getElementById("detail");
   if (!m) {
+    header.classList.remove("detail-mode");
+    header.innerHTML = HEADER_HTML;
     overview.style.display = "";
     detail.classList.remove("open");
     detail.innerHTML = "";
@@ -203,25 +235,32 @@ function route() {
 }
 
 function renderDetail(student, activeTab) {
+  const header = document.getElementById("site-header");
   const detail = document.getElementById("detail");
   detail.classList.add("open");
+
   const tabsHtml = SECTIONS.map(sec => {
     const status = statusFor(student, sec.key);
-    const cls = "tab" + (sec.key === activeTab ? " active" : "") + (status === "missing" ? " miss" : "");
+    const cls = "dh-tab" + (sec.key === activeTab ? " active" : "") + (status === "missing" ? " miss" : "");
     return `<div class="${cls}" onclick="location.hash='#/s/${student.id}/${sec.key}'">
       ${sec.icon} ${sec.label}<span class="dot"></span>
     </div>`;
   }).join("");
 
-  detail.innerHTML = `
-    <div class="back" onclick="location.hash='#/'">← Zpět na přehled</div>
-    <div class="detail-head">
-      <h2>${student.name}</h2>
-      <p>${student.title}</p>
+  header.classList.add("detail-mode");
+  header.innerHTML = `
+    <div class="dh-top">
+      <span class="dh-back" onclick="location.hash='#/'">← Přehled</span>
+      <div class="dh-crumb">
+        <span class="dh-crumb-main">🎓 Maturita 2026 / <strong>${student.name}</strong></span>
+        <span class="dh-crumb-sub">${student.title}</span>
+      </div>
+      <a class="dh-nav" href="README.md" target="_blank">Obecné zadání</a>
     </div>
-    <div class="tabs">${tabsHtml}</div>
-    <div id="tab-body"></div>
+    <div class="dh-tabs">${tabsHtml}</div>
   `;
+
+  detail.innerHTML = `<div id="tab-body"></div>`;
 
   const body = document.getElementById("tab-body");
   const items = itemsFor(student, activeTab);
