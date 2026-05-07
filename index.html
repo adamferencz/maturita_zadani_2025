@@ -130,6 +130,20 @@
   .placeholder { padding: 40px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--border); border-radius: 10px; }
   .notice { background: rgba(74,163,255,.08); border: 1px solid rgba(74,163,255,.25); padding: 10px 14px; border-radius: 8px; color: var(--muted); font-size: 13px; margin-bottom: 16px; }
   .kind-badge { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); padding: 2px 6px; border: 1px solid var(--border); border-radius: 4px; }
+
+  /* ── Thumbnails ── */
+  .card-thumb {
+    float: right; width: 72px; height: 72px; border-radius: 10px;
+    object-fit: cover; margin: 0 0 10px 14px;
+    border: 1px solid var(--border); box-shadow: 0 2px 14px rgba(0,0,0,.5);
+    transition: transform .12s;
+  }
+  .card:hover .card-thumb { transform: scale(1.04); }
+  .dh-thumb {
+    width: 44px; height: 44px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--border); flex-shrink: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,.5);
+  }
 </style>
 </head>
 <body>
@@ -205,8 +219,12 @@ function renderGrid() {
       const kinds = [...new Set(items.map(i => i.kind.toUpperCase()))].join("/");
       return `<span class="chip ok">${sec.icon} ${sec.label} <small>${kinds}</small></span>`;
     }).join("");
+    const thumbHtml = s.thumbnail
+      ? `<img class="card-thumb" src="${encodeURI(s.thumbnail)}" alt="">`
+      : "";
     return `
       <div class="card" onclick="location.hash='#/s/${s.id}'">
+        ${thumbHtml}
         <h2>${s.name}</h2>
         <div class="title">${s.title}</div>
         <div class="status-row">${chips}</div>
@@ -247,6 +265,10 @@ function renderDetail(student, activeTab) {
     </div>`;
   }).join("");
 
+  const detailThumb = student.thumbnail
+    ? `<img class="dh-thumb" src="${encodeURI(student.thumbnail)}" alt="">`
+    : "";
+
   header.classList.add("detail-mode");
   header.innerHTML = `
     <div class="dh-top">
@@ -255,6 +277,7 @@ function renderDetail(student, activeTab) {
         <span class="dh-crumb-main">🎓 Maturita 2026 / <strong>${student.name}</strong></span>
         <span class="dh-crumb-sub">${student.title}</span>
       </div>
+      ${detailThumb}
       <a class="dh-nav" href="README.md" target="_blank">Obecné zadání</a>
     </div>
     <div class="dh-tabs">${tabsHtml}</div>
