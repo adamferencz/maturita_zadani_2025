@@ -17,7 +17,8 @@
         { "kind": "pdf", "label": "PDF prezentace", "path": "odevzdani_2026/projekt_holecek/prezentace/prezentace - Webový portál kroužky Havlíčkův Brod.pdf" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_holecek/paper/Maturitní_článěk- Webový portál kroužky Havlíčkův Brod.pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_holecek/paper/Maturitní_článěk- Webový portál kroužky Havlíčkův Brod.pdf" },
+        { "kind": "md", "label": "Článek — přepis textu (MD)", "path": "odevzdani_2026/projekt_holecek/paper/clanek_text.md" }
       ],
       "poster": [
         { "kind": "pdf", "label": "Poster (PDF)", "path": "odevzdani_2026/projekt_holecek/poster/plakát - Webový portál kroužky Havlíčkův Brod.pdf" }
@@ -40,7 +41,8 @@
         { "kind": "html", "label": "Webová prezentace", "path": "odevzdani_2026/projekt_jakubek/prezentace/index (2).html" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_jakubek/paper/Maturitní_projekt___GHB___2026.pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_jakubek/paper/Maturitní_projekt___GHB___2026.pdf" },
+        { "kind": "md", "label": "Článek — přepis textu (MD)", "path": "odevzdani_2026/projekt_jakubek/paper/clanek_text.md" }
       ],
       "poster": [
         { "kind": "pdf", "label": "Poster (PDF)", "path": "odevzdani_2026/projekt_jakubek/poster/GHB Merch (2).pdf" }
@@ -66,7 +68,8 @@
         { "kind": "link", "label": "Prezentace s videem (Canva)", "path": "https://canva.link/v63s82e0c1vdohn" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_joly/paper/Clanek_joly.pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_joly/paper/Clanek_joly.pdf" },
+        { "kind": "md", "label": "Článek — přepis textu (MD)", "path": "odevzdani_2026/projekt_joly/paper/clanek_text.md" }
       ],
       "poster": [
         { "kind": "pdf", "label": "Poster (PDF)", "path": "odevzdani_2026/projekt_joly/poster/Poster_joly.pdf" }
@@ -91,7 +94,8 @@
         { "kind": "html", "label": "Webová prezentace", "path": "odevzdani_2026/projekt_kotlas/prezentace/index.html" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_kotlas/paper/Clanek_projekt__manager_Kotlas.pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_kotlas/paper/Clanek_projekt__manager_Kotlas.pdf" },
+        { "kind": "md", "label": "Článek — přepis textu (MD)", "path": "odevzdani_2026/projekt_kotlas/paper/clanek_text.md" }
       ],
       "poster": [
         { "kind": "image", "label": "Poster (PNG)", "path": "odevzdani_2026/projekt_kotlas/poster/Poster-Kotlas.png" }
@@ -117,7 +121,8 @@
         { "kind": "download", "label": "Originál PPTX (PowerPoint)", "path": "odevzdani_2026/projekt_mikulic/prezentace/Komunikační modul pro bezpilotní letoun.pptx" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_mikulic/paper/Maturitní_projekt.pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_mikulic/paper/Maturitní_projekt.pdf" },
+        { "kind": "md", "label": "Článek — přepis textu (MD)", "path": "odevzdani_2026/projekt_mikulic/paper/clanek_text.md" }
       ],
       "poster": [
         { "kind": "pdf", "label": "Poster (PDF)", "path": "odevzdani_2026/projekt_mikulic/poster/Komunikační modul pro bezpilotní letoun.pdf" }
