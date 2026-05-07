@@ -31,7 +31,7 @@
 ### Oponent (výstupy)
 
 **O1.** Jsou splněné funkční požadavky ze zadání? Co chybí nebo je jen formálně?
->
+>  
 
 **O2.** Článek (4–15 stran) — kvalita textu, struktura, reference.
 >
