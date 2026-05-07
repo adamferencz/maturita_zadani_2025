@@ -40,7 +40,7 @@
         { "kind": "html", "label": "Webová prezentace", "path": "odevzdani_2026/projekt_jakubek/prezentace/index (2).html" }
       ],
       "paper": [
-        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_jakubek/paper/Maturitní_projekt___GHB___2026 (1).pdf" }
+        { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_jakubek/paper/Maturitní_projekt___GHB___2026.pdf" }
       ],
       "poster": [
         { "kind": "pdf", "label": "Poster (PDF)", "path": "odevzdani_2026/projekt_jakubek/poster/GHB Merch (2).pdf" }
@@ -61,7 +61,10 @@
       "folder": "odevzdani_2026/projekt_joly",
       "readme": "odevzdani_2026/projekt_joly/README.md",
       "zadani": "zadani_2026_oficial_md/zadani_mark_joly.md",
-      "prezentace": [],
+      "prezentace": [
+        { "kind": "pdf", "label": "Prezentace bez videa (PDF)", "path": "odevzdani_2026/projekt_joly/prezentace/Przezntace_bez_videa.pdf" },
+        { "kind": "link", "label": "Prezentace s videem (Canva)", "path": "https://canva.link/v63s82e0c1vdohn" }
+      ],
       "paper": [
         { "kind": "pdf", "label": "Článek (PDF)", "path": "odevzdani_2026/projekt_joly/paper/Clanek_joly.pdf" }
       ],
@@ -71,7 +74,9 @@
       "dokumentace": [
         { "kind": "pdf", "label": "Technická dokumentace (PDF)", "path": "odevzdani_2026/projekt_joly/dokumentace/Technicka_dokumentace_joly.pdf" }
       ],
-      "projekt": [],
+      "projekt": [
+        { "kind": "link", "label": "Videa letů (Google Drive)", "path": "https://drive.google.com/drive/folders/1Wxk2aYb90yqQeax_y-Ebh1rGsMwPxWxP?usp=sharing" }
+      ],
       "hodnoceni_vedouciho": null,
       "hodnoceni_oponenta": null
     },

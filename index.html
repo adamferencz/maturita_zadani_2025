@@ -239,13 +239,15 @@ function renderDetail(student, activeTab) {
 function renderViewer(it, id) {
   const dl = `<a class="btn secondary" href="${encodeURI(it.path)}" download>⬇ Stáhnout</a>`;
   const open = `<a class="btn" href="${encodeURI(it.path)}" target="_blank">↗ Otevřít v novém okně</a>`;
+  const openExt = `<a class="btn" href="${it.path}" target="_blank" rel="noopener noreferrer">↗ Otevřít odkaz</a>`;
+  const headActions = it.kind === "link" ? openExt : `${open} ${dl}`;
   const head = `
     <div class="viewer-head">
       <div class="left">
         <b>${it.label}</b>
         <span class="kind-badge">${it.kind}</span>
       </div>
-      <div class="actions">${open} ${dl}</div>
+      <div class="actions">${headActions}</div>
     </div>`;
 
   let body = "";
@@ -262,6 +264,12 @@ function renderViewer(it, id) {
       <p>Tento soubor není možné zobrazit přímo v prohlížeči.</p>
       <p class="fn">${it.path}</p>
       ${open} ${dl}
+    </div>`;
+  } else if (it.kind === "link") {
+    body = `<div class="download-block">
+      <p>Odkaz na externí zdroj.</p>
+      <p class="fn">${it.path}</p>
+      <a class="btn" href="${it.path}" target="_blank" rel="noopener noreferrer">↗ Otevřít odkaz</a>
     </div>`;
   } else {
     body = `<div class="msg">Neznámý typ: ${it.kind}</div>`;
