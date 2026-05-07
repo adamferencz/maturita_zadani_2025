@@ -39,7 +39,7 @@ Za zásadní slabinu celé práce považuji skutečnost, že aplikace nebyla zve
 
 **Silné stránky:** Prokazatelná samostatnost, schopnost učit se nové technologie za provozu, efektivní práce s AI nástroji, designově kvalitní aplikace.
 
-**Rezervy:** Dotahování projektů do finálního stavu, zejména zapojení reálných uživatelů. V případě závažnějšího výpadku by mohla být limitující závislost na AI nástrojích bez hlubšího porozumění použitých technologií.
+**Rezervy:** Dotahování projektů do finálního stavu, zejména zapojení reálných uživatelů. V případě závažnějšího výpadku by mohla být limitující závislost na AI nástrojích bez hlubšího porozumění použitých technologií. Drobnou výhradu mám i ke kvalitě samotného odevzdání: zdrojové kódy projektu byly odevzdány v nestrukturované podobě a README odevzdávacího balíčku bylo ponecháno jako nevyplněná šablona. Jedná se o marginální záležitost, která nicméně svědčí o rezervách v dotahování věcí do úplného finálního stavu.
 
 ## 6. Navrhovaná klasifikace
 
