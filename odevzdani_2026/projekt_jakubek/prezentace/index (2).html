@@ -177,16 +177,6 @@ Prohlížeč ---> Caddy ---> SvelteKit <---> PostgreSQL
 
         <!-- Slide 8 -->
         <div class="slide">
-            <h2>Modelování dat a Databáze</h2>
-            <ul>
-                <li>Centrem návrhu je robustní relační schéma v PostgreSQL.</li>
-                <li>Uchovávání <span class="highlight">historických snapshotů</span> (jméno, e-mail, barva, cena položky) v tabulce `order_items` místo cizích klíčů – změna nebo smazání produktu v budoucnu nenaruší účetnictví starých objednávek.</li>
-                <li>Použití nativních databázových ENUM typů pro stavové automaty a strukturovaných JSONB formátů pro velikosti.</li>
-            </ul>
-        </div>
-
-        <!-- Slide 9 -->
-        <div class="slide">
             <h2>Docker a Produkční Nasazení</h2>
             <ul>
                 <li>Projekt je plně kontejnerizován pro snadné zprovoznění bez instalace závislostí na serveru.</li>
@@ -196,11 +186,16 @@ Prohlížeč ---> Caddy ---> SvelteKit <---> PostgreSQL
             </ul>
         </div>
 
+        <!-- Slide 9 -->
+        <div class="slide" style="text-align: center;">
+            <h2 style="border-bottom: none; font-size: 4rem; margin-top: 15%;">Živá ukázka aplikace</h2>
+            <p style="font-size: 2rem; color: var(--primary);">Přechod do prostředí e-shopu a administrace 🚀</p>
+        </div>
+
         <!-- Slide 10 -->
         <div class="slide">
             <h1 style="margin-top: 10%;">Děkuji za pozornost!</h1>
-            <p style="font-size: 2rem;">Aplikace spolehlivě běží v produkci.</p>
-            <p>Nyní je prostor pro vaše dotazy.</p>
+            <p style="font-size: 2rem;">Nyní je prostor pro vaše dotazy.</p>
         </div>
     </div>
 

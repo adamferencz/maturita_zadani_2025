@@ -1,10 +1,10 @@
 # Projekt Joly
 
-Sem patri finalni odevzdani studenta Marka Jolyho.
+Složka dokumentace obsahuje technickou dokumentaci ve formátu pdf
 
-Dopln:
+Složa paper obsahuje plakát ve formátu pdf
 
-- hlavni soubor nebo soubory ve slozce `paper/`
-- hlavni soubor nebo soubory ve slozce `poster/`
-- obsah slozek `dokumentace/`, `prezentace/`, `projekt/`
-- do tohoto README kratce napis, co je kde a co se ma otevrit jako prvni
+Složka prezentace obsahuje odkaz na prezentaci v programu canva a pdf verzi (ve které nelze spustit videa)
+
+Složka projekt obsahuje export nastavení z programu ardupilot, fotografie z výroby letounu, rendery letounu z CAD softwaru, technické výkresy jednotlivých dílů a odkaz na videa z letů.
+
