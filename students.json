@@ -99,7 +99,9 @@
       "dokumentace": [
         { "kind": "md", "label": "Technická dokumentace (MD)", "path": "odevzdani_2026/projekt_kotlas/dokumentace/technicka_dokumentace.md" }
       ],
-      "projekt": [],
+      "projekt": [
+        { "kind": "md", "label": "Poznámka k zdrojovým kódům", "path": "odevzdani_2026/projekt_kotlas/projekt/README.md" }
+      ],
       "hodnoceni_vedouciho": null,
       "hodnoceni_oponenta": null
     },
